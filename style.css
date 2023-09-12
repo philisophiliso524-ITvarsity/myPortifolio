@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color:  #10375c; 
+}
+
+.container {
+    max-width: 900px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    height: 100vh;
+    
+    
+}
+
+.container input {
+    border-radius: 7px;
+    width: 100%;
+    max-width: 700px;
+    margin:  5px 10px;
+    height: 35px;
+    padding: 5px;
+    border: 1px solid teal;
+}
+
+
+.container-list {
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 10px;
+    height: 50px;
+    max-height: 90px;
+    background-color: rgba(200, 200, 200);
+    border-radius: 10px 0px;
+}
+
+#inputfield{
+    margin: auto;
+}
+
+#addToDo {
+    margin-left: 1px;
+    padding: 0px 60px;
+    height: 60px;
+    width: 15px;
+    letter-spacing: 0.2rem;
+    color: #10375c;
+    border: none;
+    background-color: #21aba5;
+    font-size: 85%;
+    font-weight: 800;
+    font-family: courier new, monospace;
+    border-radius: 10px 0px;
+    border: 5px solid rgb(200, 200, 200);
+}
+
+#addToDo:hover {
+    color: #21aba5;
+    background-color: #10375c;
+}
+
+.to-dos {
+   margin-top: 2rem;
+   color: wheat;
+   font-size: 2rem;
+}
+
+.paragraph-styling {
+   background-color:  #10375c;
+    color: white;
+    font-family: Courier new, monospace;
+    padding: 10px 7px;
+}
+
+.container h1 {
+    color: white;
+    font-family: Courier new, monospace;
+} 
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 991px) {
+    .header {
+        padding: 2rem 3%;
+    }
+    
+    .container {
+        padding: 10rem 3% 2rem;
+    }
+    
+    #addToDo {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px){
+    .container{
+        padding: 7rem 3% 2rem;
+    }
+}
+
+
+
+
+
